@@ -3,77 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>我的个人主页</title>
+    <title>我的金融主页</title>
     <link rel="stylesheet" href="style.css">
     <!-- 引入 Font Awesome 用于图标 -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <div class="background-overlay"></div>
     <div class="container">
         <header>
             <div class="avatar-placeholder">
-                <i class="fas fa-user"></i>
+                <i class="fas fa-user-tie"></i>
             </div>
             <h1>你好，我是 [你的名字]</h1>
-            <p class="subtitle">探索 · 创造 · 成长</p>
+            <p class="subtitle">洞察 · 分析 · 价值</p>
         </header>
 
         <main>
             <!-- 个人信息 -->
             <section class="card profile">
-                <h2><i class="fas fa-id-card"></i> 个人信息</h2>
+                <h2><i class="fas fa-address-card"></i> 个人信息</h2>
                 <div class="content">
-                    <p>你好！我是一名充满热情的开发者/创作者。我热爱技术，喜欢探索未知的领域。这是我的个人空间，记录我的成长轨迹。</p>
+                    <p>你好！我是一名深耕金融领域的专业人士。我致力于通过数据分析和市场洞察，为客户创造价值。这是我的个人空间，记录我在金融市场的探索与成长。</p>
                     <ul class="info-list">
-                        <li><strong>所在地:</strong> [城市, 国家]</li>
-                        <li><strong>邮箱:</strong> email@example.com</li>
-                        <li><strong>兴趣:</strong> 编程, 阅读, 旅行, 摄影</li>
+                        <li><strong>所在地:</strong> [金融中心城市, 国家]</li>
+                        <li><strong>邮箱:</strong> finance@example.com</li>
+                        <li><strong>关注领域:</strong> 宏观经济, 量化交易, 风险管理, 资产配置</li>
                     </ul>
                 </div>
             </section>
 
-            <!-- 特长/技能 -->
+            <!-- 行业掠影 -->
+            <section class="card gallery">
+                <h2><i class="fas fa-globe-americas"></i> 行业掠影</h2>
+                <div class="finance-images">
+                    <img src="https://images.unsplash.com/photo-1611974765270-ca1258634369?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Stock Market" class="finance-img">
+                    <img src="https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Financial Analysis" class="finance-img">
+                    <img src="https://images.unsplash.com/photo-1565514020176-dbf2277f240e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Meeting" class="finance-img">
+                </div>
+            </section>
+
+            <!-- 核心竞争力 -->
             <section class="card skills">
-                <h2><i class="fas fa-tools"></i> 我的特长</h2>
+                <h2><i class="fas fa-chart-line"></i> 核心竞争力</h2>
                 <div class="skills-grid">
-                    <div class="skill-item">网页开发 (HTML/CSS)</div>
-                    <div class="skill-item">问题解决</div>
-                    <div class="skill-item">团队协作</div>
-                    <div class="skill-item">创意设计</div>
-                    <div class="skill-item">持续学习</div>
-                    <!-- 可以根据实际情况修改 -->
+                    <div class="skill-item">金融建模</div>
+                    <div class="skill-item">数据分析 (Python/R)</div>
+                    <div class="skill-item">市场调研</div>
+                    <div class="skill-item">投资策略</div>
+                    <div class="skill-item">风险控制</div>
+                    <div class="skill-item">CFA/CPA</div>
                 </div>
             </section>
 
             <!-- 现在的工作 -->
             <section class="card current-work">
-                <h2><i class="fas fa-briefcase"></i> 现在在做的工作</h2>
+                <h2><i class="fas fa-briefcase"></i> 职业经历</h2>
                 <div class="content">
-                    <h3>职位名称 / 项目角色</h3>
+                    <h3>资深分析师 / 投资经理</h3>
                     <p class="date">2023 - 至今</p>
-                    <p>目前我正致力于 [项目名称或工作内容]。主要负责：</p>
+                    <p>目前我正致力于 [核心项目或基金管理]。主要负责：</p>
                     <ul>
-                        <li>负责 [具体职责1] 的开发与维护</li>
-                        <li>参与 [具体职责2] 的设计与讨论</li>
-                        <li>利用 [技术/工具] 解决实际问题</li>
+                        <li>负责 [具体资产类别] 的投资策略制定与执行</li>
+                        <li>主导 [市场/行业] 的深度研究报告撰写</li>
+                        <li>利用 [量化模型/基本面分析] 优化投资组合</li>
                     </ul>
                 </div>
             </section>
 
             <!-- 未来发展 -->
             <section class="card future-goals">
-                <h2><i class="fas fa-rocket"></i> 今后想发展的工作</h2>
+                <h2><i class="fas fa-bullseye"></i> 职业愿景</h2>
                 <div class="content">
-                    <p>我对未来的职业生涯充满期待，我的目标是向 [目标职位/领域] 发展。</p>
+                    <p>我对全球金融市场的未来充满信心，我的目标是成为 [具体领域] 的领军人物。</p>
                     <div class="goals-list">
                         <div class="goal-item">
                             <h3>短期目标</h3>
-                            <p>深入学习 [某项具体技术]，完成 [某个具体项目]。</p>
+                            <p>完成 [高级认证/特定项目]，深入研究 [新兴市场/FinTech] 领域。</p>
                         </div>
                         <div class="goal-item">
                             <h3>长期愿景</h3>
-                            <p>成为一名 [领域专家/资深工程师]，能够带领团队创造更有价值的产品。</p>
+                            <p>建立自己的 [投资理念/团队]，为投资者带来长期稳定的回报。</p>
                         </div>
                     </div>
                 </div>
@@ -81,10 +90,10 @@
 
             <!-- 联系方式 -->
             <section class="card contact">
-                <h2><i class="fas fa-envelope"></i> 联系我</h2>
-                <p>如果你对我的经历感兴趣，或者有合作意向，欢迎随时联系！</p>
+                <h2><i class="fas fa-handshake"></i> 商务合作</h2>
+                <p>如果您对我的研究感兴趣，或者有潜在的合作机会，欢迎随时联系。</p>
                 <div class="social-links">
-                    <a href="#" class="social-btn"><i class="fab fa-github"></i> GitHub</a>
+                    <a href="#" class="social-btn"><i class="fab fa-linkedin"></i> LinkedIn</a>
                     <a href="#" class="social-btn"><i class="fab fa-twitter"></i> Twitter</a>
                     <a href="#" class="social-btn"><i class="fas fa-envelope"></i> Email</a>
                 </div>
@@ -92,7 +101,7 @@
         </main>
 
         <footer>
-            <p>&copy; 2024 我的个人主页. All rights reserved.</p>
+            <p>&copy; 2024 我的金融主页. All rights reserved.</p>
         </footer>
     </div>
 </body>
