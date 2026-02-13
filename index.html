@@ -5,37 +5,89 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>我的个人主页</title>
     <link rel="stylesheet" href="style.css">
+    <!-- 引入 Font Awesome 用于图标 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
+    <div class="background-overlay"></div>
     <div class="container">
         <header>
-            <h1>你好，世界！</h1>
-            <p>我将开启我的个人网页生涯</p>
+            <div class="avatar-placeholder">
+                <i class="fas fa-user"></i>
+            </div>
+            <h1>你好，我是 [你的名字]</h1>
+            <p class="subtitle">探索 · 创造 · 成长</p>
         </header>
 
         <main>
-            <section>
-                <h2>关于我</h2>
-                <p>欢迎来到我的第一个个人网页！这里是我在互联网上的一块小天地。</p>
-                <p>目前这里还比较简单，但我已经迈出了第一步。我计划在这里记录我的学习过程、分享我的想法，并展示我未来的作品。</p>
+            <!-- 个人信息 -->
+            <section class="card profile">
+                <h2><i class="fas fa-id-card"></i> 个人信息</h2>
+                <div class="content">
+                    <p>你好！我是一名充满热情的开发者/创作者。我热爱技术，喜欢探索未知的领域。这是我的个人空间，记录我的成长轨迹。</p>
+                    <ul class="info-list">
+                        <li><strong>所在地:</strong> [城市, 国家]</li>
+                        <li><strong>邮箱:</strong> email@example.com</li>
+                        <li><strong>兴趣:</strong> 编程, 阅读, 旅行, 摄影</li>
+                    </ul>
+                </div>
             </section>
 
-            <section>
-                <h2>未来计划</h2>
-                <p>虽然现在内容不多，但我已经有一些想法了：</p>
-                <ul>
-                    <li>学习更多的 HTML 和 CSS 技巧，美化这个页面</li>
-                    <li>尝试写一些博客文章</li>
-                    <li>添加我的个人项目展示</li>
-                    <li>上传一些有趣的图片</li>
-                </ul>
+            <!-- 特长/技能 -->
+            <section class="card skills">
+                <h2><i class="fas fa-tools"></i> 我的特长</h2>
+                <div class="skills-grid">
+                    <div class="skill-item">网页开发 (HTML/CSS)</div>
+                    <div class="skill-item">问题解决</div>
+                    <div class="skill-item">团队协作</div>
+                    <div class="skill-item">创意设计</div>
+                    <div class="skill-item">持续学习</div>
+                    <!-- 可以根据实际情况修改 -->
+                </div>
             </section>
 
-            <section>
-                <h2>联系方式</h2>
-                <p>如果你对我的网页感兴趣，或者有什么建议，欢迎随时联系我。</p>
-                <!-- 后续可以添加真实的联系方式 -->
-                <p>Email: (待添加)</p>
+            <!-- 现在的工作 -->
+            <section class="card current-work">
+                <h2><i class="fas fa-briefcase"></i> 现在在做的工作</h2>
+                <div class="content">
+                    <h3>职位名称 / 项目角色</h3>
+                    <p class="date">2023 - 至今</p>
+                    <p>目前我正致力于 [项目名称或工作内容]。主要负责：</p>
+                    <ul>
+                        <li>负责 [具体职责1] 的开发与维护</li>
+                        <li>参与 [具体职责2] 的设计与讨论</li>
+                        <li>利用 [技术/工具] 解决实际问题</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- 未来发展 -->
+            <section class="card future-goals">
+                <h2><i class="fas fa-rocket"></i> 今后想发展的工作</h2>
+                <div class="content">
+                    <p>我对未来的职业生涯充满期待，我的目标是向 [目标职位/领域] 发展。</p>
+                    <div class="goals-list">
+                        <div class="goal-item">
+                            <h3>短期目标</h3>
+                            <p>深入学习 [某项具体技术]，完成 [某个具体项目]。</p>
+                        </div>
+                        <div class="goal-item">
+                            <h3>长期愿景</h3>
+                            <p>成为一名 [领域专家/资深工程师]，能够带领团队创造更有价值的产品。</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 联系方式 -->
+            <section class="card contact">
+                <h2><i class="fas fa-envelope"></i> 联系我</h2>
+                <p>如果你对我的经历感兴趣，或者有合作意向，欢迎随时联系！</p>
+                <div class="social-links">
+                    <a href="#" class="social-btn"><i class="fab fa-github"></i> GitHub</a>
+                    <a href="#" class="social-btn"><i class="fab fa-twitter"></i> Twitter</a>
+                    <a href="#" class="social-btn"><i class="fas fa-envelope"></i> Email</a>
+                </div>
             </section>
         </main>
 
