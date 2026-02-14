@@ -220,6 +220,62 @@ h2 i {
     border-color: #4a148c;
 }
 
+/* 成功案例模块 */
+.cases-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+    margin-top: 20px;
+}
+
+.case-item {
+    background: #fdfdfd;
+    padding: 25px;
+    border-radius: 8px;
+    border: 1px solid #eee;
+    border-top: 3px solid #d4af37; /* 金色顶部装饰 */
+    position: relative;
+    transition: all 0.3s ease;
+    padding-bottom: 50px; /* 为标签留出空间 */
+}
+
+.case-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.case-icon {
+    font-size: 2.5em;
+    color: #4a148c; /* 紫色图标 */
+    margin-bottom: 15px;
+}
+
+.case-item h3 {
+    color: #2c3e50;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.case-item p {
+    font-size: 0.95em;
+    color: #666;
+    line-height: 1.6;
+}
+
+.case-item .tag {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background: #d4af37;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 0.85em;
+    font-weight: 600;
+    box-shadow: 0 2px 5px rgba(212, 175, 55, 0.3);
+}
+
 /* 页脚 */
 footer {
     text-align: center;
